@@ -1,1 +1,1 @@
-Python soved question
+Python solved question
