@@ -9,6 +9,6 @@ for i in range(n_eng):
 
 n_french=int(input("enter the number"))
 for j in range(n_french):
-    french.add(int(input("enter the numbe of student")))
+    french.add(int(input("enter the number of student")))
 res=english.symmetric_difference(french)  
 print(len(res))
