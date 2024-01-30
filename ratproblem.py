@@ -14,9 +14,9 @@ def calculate (r, unit, arr, n):
         return 0
     return house + 1
 	  
-r = int (input ())
-unit = int (input ())
-n = int (input ())
-  
-arr = list (map (int, input ().split ()))
-print (calculate (r, unit, arr, n))
+r = int(input("Enter value for r: "))
+unit = int(input("Enter value for unit: "))
+n = int(input("Enter the number of elements in arr: "))
+
+arr = list(map(int, input("Enter space-separated values for arr: ").split()))
+print(calculate(r, unit, arr, n))
